@@ -1,0 +1,120 @@
+#bs li a{
+	text-decoration: none; 
+    border-width: 4em;
+    
+	height: 2.3em;
+    margin-left: .5em;
+    margin-top: 1.2em; 
+    margin-right: .5em;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a{
+	 color: #f4511e !important;
+	background-color:#fff !important;
+}
+ .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  .text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+}
+.row{
+	margin-top: 8em;
+}
+p{
+	margin-top: 6em;
+}
+.col-lg-6 a {
+	text-decoration: none;
+}
+
+.panel-default{
+	 border-radius: 6px;
+ border: 8px solid #fff;
+    border-left: 8px solid orange; 
+    margin-top: 1em;
+background-color: #eee;
+}
+.navbar-default{
+	margin-top: -1em;
+}
+@media (min-width: 320px) and (max-width: 430px){
+
+    .col-lg-6{
+    	width: 100%;
+    	margin-top: 16%;
+    }
+    .navbar-default{
+    	width: 100%;
+    }
+    
+
+}
+@media (min-width: 431px) and (max-width: 767px){
+
+    .col-lg-6{
+    	width: 100%;
+    	margin-top: 3%;
+    }
+    .navbar-default{
+    	width: 100%;
+    }
+    
+
+}
+@media (min-width: 768px) and (max-width: 929px){
+
+    .col-lg-6{
+    	width: 100%;
+    	margin-top: 6%;
+
+    }
+    .navbar-default{
+    	width: 100%;
+    }
+    
+
+}
+@media (min-width: 930px) and (max-width: 1200px){
+
+    .col-lg-6{
+    	width: 100%;
+    	margin-top: 1%;
+    }
+    .navbar-default{
+    	width: 100%;
+    }
+    
+
+}
+@media (min-width: 1201px) and (max-width: 1350px){
+
+    .col-lg-6{
+    
+    	
+    }
+    .navbar-default{
+    	width: 100%;
+    }
+    
+
+}
+@media (min-width: 1350px) and (max-width: 1500px){
+
+    .col-lg-6{
+    
+    	margin-top: %;
+    	
+    }
+    .navbar-default{
+    	width: 100%;
+    }
+    
+
+}
